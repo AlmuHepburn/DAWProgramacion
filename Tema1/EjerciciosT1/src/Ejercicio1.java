@@ -13,6 +13,5 @@ public class Ejercicio1 {
         System.out.println("Mi nombre es: " + miNombre);
         System.out.println("Mi edad es: " + edad);
         System.out.println("Vivo en: " + ciudad);
-        System.out.println("\n");
     }
 }
