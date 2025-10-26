@@ -11,11 +11,16 @@ public class Main {
 
         System.out.println("Este es mi primer programa en Java\n");
         System.out.println("Esta es la segunda línea del programa");
+
+        String miNombre = "Almudena";
+        System.out.println("Mi nombre es "+miNombre);
+        miNombre = "Almudena Pérez Arias";
+        System.out.println("Mi nombre es "+miNombre);
     }
 
-    public void nombreMetodo(){
+
 
 
 
     }
-}
+
