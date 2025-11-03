@@ -14,6 +14,7 @@ public class Ejercicio7 {
         int edad = lectorTeclado.nextInt();
         System.out.println("Introduce la ciudad donde vives:");
         String ciudad = lectorTeclado.next();
+        System.out.println();
 
         System.out.println("¡Hola! Me llamo "+nombreApellido+".");
         System.out.println("Tengo "+edad+" años y vivo en "+ciudad);
