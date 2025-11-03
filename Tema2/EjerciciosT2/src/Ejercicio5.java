@@ -15,5 +15,7 @@ public class Ejercicio5 {
         boolean alquiler= carnet==true && mayor21==true;
         System.out.println("¿Puedes alquilar un coche? (AND): "+alquiler);
 
+        lectorTeclado.close();
+
     }
 }
