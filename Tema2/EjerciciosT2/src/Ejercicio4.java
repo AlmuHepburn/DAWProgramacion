@@ -6,7 +6,11 @@ public class Ejercicio4 {
         Scanner entradaNumero = new Scanner(System.in);
         System.out.println("Introduce un número:");
         int numero= entradaNumero.nextInt();
-        if(numero % 2 == 0) {System.out.println("El número "+numero+" es par.");} else {System.out.println("El número "+numero+" es impar.");}
+        if(numero % 2 == 0) {
+            System.out.println("El número "+numero+" es par.");
+        } else {
+            System.out.println("El número "+numero+" es impar.");
+        }
 
             entradaNumero.close();
 
