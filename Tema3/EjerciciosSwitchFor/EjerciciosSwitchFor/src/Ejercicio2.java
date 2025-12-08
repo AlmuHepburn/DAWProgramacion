@@ -6,9 +6,9 @@ public class Ejercicio2 {
 
         Scanner scanner= new Scanner(System.in);
         System.out.println("Introduce tu calificación (A-E):");
-        String letra= scanner.next();
+        String letra = scanner.next();
         String calificacion= "Excelente";
-        switch (letra.toLowerCase()){
+        switch (letra){
             case "A"->{
                 System.out.println("Calificación A: "+calificacion);
             }
