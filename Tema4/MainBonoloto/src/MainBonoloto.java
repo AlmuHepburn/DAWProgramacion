@@ -7,5 +7,6 @@ public class MainBonoloto {
         // numerosSistema = [10,11,5,2,7]
         bonoloto.pedirNumerosUsuario();
         // numerosUsuario = [10,8,5,13,3]
+        bonoloto.comprobarAciertos();
     }
 }
