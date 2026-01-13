@@ -1,42 +1,47 @@
 package model;
 
+import java.util.ArrayList;
+
 public class Carrera {
 
-    private Coche piloto;
+    private ArrayList<Coche> participantes;
     private int puntos;
-    private int clasificacion;
+    private int kmDistancia;
 
     public Carrera() {
-
-    }
-
-    public Carrera(Coche piloto, int puntos, int clasificacion) {
-        this.piloto = piloto;
+        this.participantes = participantes;
         this.puntos = puntos;
-        this.clasificacion = clasificacion;
+        this.kmDistancia = kmDistancia;
     }
 
-    public Coche getPiloto() {
-        return piloto;
+    public ArrayList<Coche> getParticipantes() {
+        return participantes;
+    }
+
+    public void setParticipantes(ArrayList<Coche> participantes) {
+        this.participantes = participantes;
     }
 
     public int getPuntos() {
         return puntos;
     }
 
-    public int getClasificacion() {
-        return clasificacion;
-    }
-
-    public void setPiloto(Coche coches) {
-        this.piloto = piloto;
-    }
-
     public void setPuntos(int puntos) {
         this.puntos = puntos;
     }
 
-    public void setClasificacion(int clasificacion) {
-        this.clasificacion= clasificacion;
+    public int getKmDistancia() {
+        return kmDistancia;
+    }
+
+    public void setKmDistancia(int kmDistancia) {
+        this.kmDistancia = kmDistancia;
+    }
+
+    public void asignarKm(ArrayList<Coche> participantes){
+        for (int i = 0; i < ; i++) {
+            //recorrer la lista de participantes y asignar km con math random
+
+        }
     }
 }
